@@ -179,6 +179,8 @@ ap9=msecante(f=expr, a=0, b=0.48, epsilon=1e-5, it=10)
 print(ap9)
 print("Este método no converge para esta ecuación.")
 
+print("El método más eficiente en este caso sería el de bisección porque se acerca más al valor real con el mismo número de iteraciones.")
+
 print("Problema 3.")
 #3. Newton y Müller
 expr=(x**5)+(11*x**4)-(21*x**3)-(10*x**2)-(21*x)-5
